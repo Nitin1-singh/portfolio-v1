@@ -1,0 +1,22 @@
+.projectBar {
+    display: inline-block;
+    width: 3rem;
+    height: 1rem;
+    background-color: #5918df;;
+}
+.project {
+    color: white;
+    display: inline-block;
+    font-size: clamp(1rem, 2.5vw, 2rem); 
+    font-weight: 600;
+    padding: 0px;
+}
+.projectDiv {
+    padding-left: 5rem;
+}
+ @media only screen and (max-width: 600px) {
+    .projectDiv {
+        padding-left: 1rem;
+        width: 100%;
+    }
+}

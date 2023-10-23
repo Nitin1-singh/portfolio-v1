@@ -1,0 +1,22 @@
+.bg {
+    display: none;
+    background-color: #181717;
+    height: 526px;
+    width: 100%;
+    color: antiquewhite;
+}
+.img {
+    filter: invert(93%) sepia(65%) saturate(6452%) hue-rotate(60deg) brightness(104%) contrast(109%);
+}
+.pg {
+    color: rgba(245, 245, 245, 0.575);
+}
+.btn {
+    font-size: 1.5rem;
+    color: white;
+    outline: none;
+    border: none;
+    background-color: #5918DF;
+    padding: 0.3rem 1.5rem;
+    border-radius: 1rem;
+}

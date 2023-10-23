@@ -1,0 +1,30 @@
+.bg{
+    min-height: 100vh;
+    background-color: #14121C;
+    color: white;
+}
+.lineNo{
+    color: #3b3553;
+    padding-right: 1rem;
+}
+.code,.lineNo {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.bd{
+    border-left: 2px solid #5918DF;
+}
+.lightHover:hover {
+    background-color: #231d28;
+}
+@media only screen and (max-width: 600px) {
+    .codeRes {
+        word-wrap: break-word;
+    }
+    .codePadding {
+        display: none;
+    }
+    .lineNo {
+        padding: 0rem;
+    }
+}

@@ -1,0 +1,78 @@
+/* container */
+.bg{
+    background-color: #14121C;
+    width: 100%;
+    height: 100vh;
+    min-height: 650px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.bg > div {
+    height: 100%;
+}
+.bg2,.bg3 {
+    color: #453975;
+}
+.bg3 {
+    width: 50%;
+}
+.bg2 > div > h1 {
+    font-size: 5vw;
+}
+.bg3 > div > p {
+    font-size: 2vw;
+}
+.bg3 > div > h1 {
+    font-size: 4vw;
+}
+/* buttons */
+.btn {
+    display: inline-block;
+    text-align: center;
+    border: none;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 1.7px;
+    font-weight: 400;
+    color: #14121C;
+    padding: 0.5rem 1.8rem;
+    border-radius: 2rem;
+    background-color: #302A4B;
+}
+.btn:hover {
+    color: #745add;
+}
+/* media query */
+@media only screen and (max-width: 890px) {
+    .bg2 > div > h1 {
+        font-size: 6vw;
+    }
+    .bg3 > div > p {
+        font-size: 4vw;
+    }
+    .bg3 > div > h1 {
+        font-size: 6vw;
+    }
+    .bg3 {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .bg {
+        height: 100px;
+    }
+    .bg3 {
+        width: 100vw;
+    }
+    .bg2 > div > h1 {
+        font-size: 8vw;
+    }
+    .bg3 > div > p {
+        font-size: 5vw;
+    }
+    .bg3 > div > h1 {
+        font-size: 8vw;
+    }
+}

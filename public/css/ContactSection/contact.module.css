@@ -1,0 +1,28 @@
+.bg {
+    background-color: rgb(24, 23, 23);
+    min-height: 100vh;
+}
+.bd {
+    border: 1px solid #20214A;
+    border-radius: 1rem;
+}
+.link {
+    text-decoration: none;
+    color: #5918df;
+}
+.img {
+    filter: invert(13%) sepia(100%) saturate(4845%) hue-rotate(261deg) brightness(85%) contrast(107%);
+}
+.img:hover {
+    cursor: pointer;
+}
+.btn {
+    background-color: #5918df;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    border: none;
+    border-radius: 5rem;
+    padding: 0.5rem 2rem;
+    margin: 1rem 0rem;
+}

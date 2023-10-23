@@ -1,0 +1,23 @@
+.workBg {
+    background-color: #1A1527;
+    color: white;
+    min-height: 100vh;
+}
+.title {
+    color: #302A4B;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.web > a {
+    text-decoration: none;
+    color: #C1F3FF;
+}
+.mobile > a {
+    text-decoration: none;
+    color: #C1F3FF;
+}
+@media only screen and (max-width: 600px) {
+    .webDiv,.mobileDiv {
+        padding-left: 1rem;
+    }
+}

@@ -1,0 +1,95 @@
+/* navbar left items */
+.navLeft > a {
+    color: #5918DF;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+    padding-left: 1rem;
+}
+/* navbar right items */
+.navItms {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 100%;
+    font-weight: 500;
+    list-style-type: none;
+    letter-spacing: 0.7px;
+}
+.navItms>li {
+    padding-right: 1rem;
+}
+.navItms>li>a>img{
+    filter: invert(28%) sepia(93%) saturate(6624%) hue-rotate(258deg) brightness(92%) contrast(99%);
+}
+.navItms>li>a {
+    color: #d4d4d4;
+    text-decoration: none;
+}
+.navItms>li>a:hover {
+    color: #5918DF;
+}
+.navItms>li>a>span{
+    color: #494949;
+}
+/* menu button */
+.menuBtn > a {
+    display: none;
+    outline: none;
+    border: none;
+    width: 2rem;
+    height: 2rem;
+    background-image: url('/img/nav/menu.svg');
+    filter: brightness(0) invert(1);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.menuBtn > a:hover {
+    cursor: pointer;
+}
+.menuBtn {
+    display: none;
+}
+/* repsonsice Css breakpoints */
+@media only screen and (max-width: 890px) {
+    .navBg {
+        background-color: #1e182b;
+        opacity: 0.9;
+    }
+    .navRight {
+        color: #494949;
+        padding-left: 1rem;
+        background-color: #1e182b;
+        box-shadow: rgba(157, 157, 157, 0.2) 0px 4px 10px;
+        position: absolute;
+        width: 100%;
+        height: 15rem;
+        top: 4rem;
+        left: 0rem;
+        display: none;
+        opacity: 0;
+        transition: all 0.4s ease-in-out;
+    }
+    .activeMenu {
+        opacity: 1;
+        display: inline-block;
+    }
+    .navItms {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 1rem 1rem;
+    }
+    .menuBtn {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .menuBtn > a {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .menuBtn >.closeBtn{
+        background-image: url('/img/nav/close.svg');
+    }
+}
