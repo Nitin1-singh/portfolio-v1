@@ -18,7 +18,7 @@ export default function ContactSection() {
                             <div id='doneSent' className={`col-md-6 text-center ${sent.bg}`}>
                                 <Image className={`${sent.img}`} src={'/img/contact/check.svg'} alt="done" width={80} height={80} />
                                 <h4>Your Message has been Sent</h4>
-                                <p className={`${sent.pg}`}>I'll get to you as soon as possible</p>
+                                <p className={`${sent.pg}`}>{"I'll get to you as soon as possible"}</p>
                                 <ReturnBtn />
                             </div>
                         <div id={`formHead`}>
