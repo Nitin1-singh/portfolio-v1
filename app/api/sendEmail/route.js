@@ -7,7 +7,7 @@ export  async function POST(req) {
 		port:587,
 		auth:{
 			user:'nitinforcoding@gmail.com',
-			pass:process.env.NEXT_PUBLIC_EMAIL_API
+			pass:process.env.EMAIL_API
 		}
 	})
     const mailOption = {
