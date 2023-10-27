@@ -30,7 +30,9 @@ yarn-error.log*
 .env.local
 .env.test
 .env.production
-
+#<<<<<<< feature/email
+#=======
+#>>>>>>> main
 # vercel
 .vercel
 
