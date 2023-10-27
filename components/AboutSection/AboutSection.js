@@ -23,7 +23,7 @@ export default function AboutSection() {
                     code2={'dateOfBirth'} code2Color={'#22D48B'} code3={'='} code3Color={'#D8234A'} code4={"'08-08-2003'"} code4Color={'#DFEF30'}
                 />
                  <Code2 line={'05'} code={'this'} padding={'....'} codeColor={'#D8234A'} code1={'.'}
-                    code2={'email'} code2Color={'#22D48B'} code3={'='} code3Color={'#D8234A'} code4={"'nnegi2471@gmail.com'"} code4Color={'#23DE3A'}
+                    code2={'email'} code2Color={'#22D48B'} code3={'='} code3Color={'#D8234A'} code4={"'nitinforcoding@gmail.com'"} code4Color={'#23DE3A'}
                 />
                 <CodePart line={'06'} padding={'..'} code={'}'} />
                 <CodePart line={'07'} padding={'..'} code={'education'} codeColor={'#DFEF30'} code1={'( ) {'} />
